@@ -1,0 +1,6 @@
+﻿  StateMachine.hpp
+C:\Users\mksakharov\Desktop\14.02.2025\StateMachine\StateMachine\StateMachine.hpp(63,13): warning C4101: e: неиспользованная локальная переменная
+C:\Users\mksakharov\Desktop\14.02.2025\StateMachine\StateMachine\StateMachine.hpp(192,14): warning C4101: e: неиспользованная локальная переменная
+C:\Users\mksakharov\Desktop\14.02.2025\StateMachine\StateMachine\StateMachine.hpp(304,14): warning C4101: e: неиспользованная локальная переменная
+C:\Users\mksakharov\Desktop\14.02.2025\StateMachine\StateMachine\StateMachine.hpp(406,14): warning C4101: e: неиспользованная локальная переменная
+  StateMachine.vcxproj -> C:\Users\mksakharov\Desktop\14.02.2025\StateMachine\x64\Debug\StateMachine.exe
