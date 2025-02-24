@@ -1,0 +1,27 @@
+declare V1 as CN, V2 as CN, V3 as BV, declare1 as BV;
+;
+while V1>=V2 do
+ let V1=V1 -1;
+ let V2=V2+ 1;
+for V4 = 0 to 5 step 1 do let V1 = V1 + 1;
+if(V1<V2)let V1 = V2; else let V2 = V1;
+load(V1,V2);
+put(2, BV, V1);
+  B1:
+ if (V1<V2) let V2 = V1;
+jump B1;
+switch(V1>=V2) when 0: let V2 = V1 / 2; when 1: let V1 = V2 * 2; default: ; end switch   ;  
+  %% Исключение
+if(V1<V2)               bad  ; %% Исключение
+let V3 = [<1, 0, 1>];
+concatenate
+not(V3);
+or(V3, V3);
+and(V3, V3);
+shiftleft(V3, 3);
+shiftright(V3, 3);
+at(V3, 2);
+set(V3, 2 , 0); %%
+popback(V3);
+pushback(V3, 1);
+scalar(V3, V3);
